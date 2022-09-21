@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <h1>Your Feed</h1>
+    <div class="content">
+        <div class="contentL">
+            <img src="imgs/user-circle.png" alt="">
+            <a href="#">Add an avatar</a>
+            <h1>James Doe</h1>
+        </div>
+        <div class="contentR">
+            <div class="userBox" id="neilM">
+                <div class="userTop">
+                    <h1 class="userName">Neil M</h1>
+                    <div class="userLikes">
+                        <h3><span class="likes">9</span> like(s)</h3>
+                        <button class="likeBtn" onclick="likePlus('neilM')">Like</button>
+                    </div>
+                </div>
+                <div class="userBottom">
+                    <p>I just set up this new Discord bot! Let me know what you think! <a href="#">Link</a></p>
+                </div>
+            </div>
+            <div class="userBox" id="nicholeK">
+                <div class="userTop">
+                    <h1 class="userName">Nichole K</h1>
+                    <div class="userLikes">
+                        <h3><span class="likes">12</span> like(s)</h3>
+                        <button class="likeBtn" onclick="likePlus('nicholeK')">Like</button>
+                    </div>
+                </div>
+                <div class="userBottom">
+                    <p>Just finished my <a href="#">next comic</a>. Please check it out!</p>
+                </div>
+            </div>
+            <div class="userBox" id="jimR">
+                <div class="userTop">
+                    <h1 class="userName">Jim R</h1>
+                    <div class="userLikes">
+                        <h3><span class="likes">7</span> like(s)</h3>
+                        <button class="likeBtn" onclick="likePlus('jimR')">Like</button>
+                    </div>
+                </div>
+                <div class="userBottom">
+                    <p>I can't stop listening to this <a href="#">new album</a> by A Href. Who else is listening?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:'Roboto';
+}
+
+nav {
+    width:1000px;
+    height: 80px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+}
+
+nav h1 {
+    font-size: 2em;
+    margin-left:50px;
+    
+}
+
+.content {
+    width:1000px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align:center;
+    margin: 15px;
+}
+
+.contentL {
+    width:30%;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border: 3px solid black
+}
+
+.contentL img {
+    width:100px;
+    margin: 50px 0;
+}
+.contentL a {
+    margin-bottom:15px;
+}
+
+.contentR {
+    width:60%;
+}
+
+.userBox {
+    height:150px;
+    width: 96%;
+    border: 3px solid black;
+    margin-bottom:15px;
+    padding: 10px;
+}
+
+.userTop {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 25px;
+    align-items:center;
+}
+
+.userLikes {
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.likeBtn {
+    height:40px;
+    border: 4px solid black;
+    background-color:gold;
+    padding: 10px 10px;
+    box-shadow: 3px 3px black;
+    font-size:110%;
+    display:flex;
+    align-items: center;
+}
+
+.userBottom p {
+    margin:15px;
+}
